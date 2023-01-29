@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="U89-sk" fetch="https://github.com/U89-sk"/>
+ <remote name="viviz-kernel-Devices" fetch="https://github.com/viviz-kernel-Devices" />
+  
+ <!-- Trees -->
+ <project path="device/realme/RMX1851" name="device_realme_RMX1851" remote="U89-sk" revision="lineage-20.0" />
+ <project path="vendor/realme/RMX1851" name="android_vendor_RMX1851" remote="U89-sk" revision="13" />
+ <project path="kernel/realme/sdm710" name="viviz-sdm710" remote="viviz-kernel-Devices" revision="viviz" />
+ 
+</manifest>
